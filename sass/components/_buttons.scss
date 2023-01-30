@@ -1,0 +1,35 @@
+.button {
+    display: inline-block;
+    background-color: var(--first-color);
+    color: #1A1A1A; 
+    padding: .75rem 1.5rem;
+    border-radius: 3rem; 
+    font-weight: var(--font-semi-bold);
+    transition: .3s;
+    
+    &:hover{
+        background-color: var(--first-color-alt);
+    }
+    &-header{
+        display: none;
+    }
+    &.button-link {
+        background: none;
+        padding: 0;
+        &:hover {
+            background: none;
+            color: var(--first-color-alt);
+        }
+    }
+    &-flex{
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: .25rem;
+        padding: .75rem 1rem;
+        margin-top: .5rem;
+        & > i {
+        font-size: 1.3rem;
+        }
+    }
+}

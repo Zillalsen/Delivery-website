@@ -1,0 +1,16 @@
+.home {
+    &-container {
+        row-gap: 3rem;
+    }
+
+    &-title {
+        font-size: var(--biggest-font-size);
+        font-weight: var(--font-bold);
+    }
+    &-description {
+        color: var(--text-color);
+        margin-bottom: 2rem;
+    }
+}
+
+

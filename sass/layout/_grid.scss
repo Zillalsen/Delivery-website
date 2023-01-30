@@ -1,0 +1,35 @@
+.section{
+    padding: 4.5rem 0 1rem;
+    
+    &-title, &-title-center{
+        font-size: var(--h2-font-size);
+        color: var(--title-color);
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+}
+
+.svg{
+    &-color{
+        fill: var(--first-color);
+    }
+    &-blob{
+        fill: var(--first-color-light);
+    }
+    &-img{
+        width: 300px;
+        justify-self: center;
+    }
+}
+
+/*=============== LAYOUT ===============*/
+.container{
+    max-width: 968px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.grid{
+    display: grid;
+    gap: 1.5rem;
+}
